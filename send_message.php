@@ -3,7 +3,7 @@
  	$from = $_POST["name"];
 	$from_mail = $_POST["email"];
 	$phone = $_POST["phone"];
-	$subject_from = $from . " " . $from2 . " " . $from_mail;
+	$subject_from = $from . " " . $from_mail . " " . $phone;
 	$message = $_POST["message"];
 	$naglowek = "From: kontakt@hanzbud.ugu.pl";
 
