@@ -268,10 +268,7 @@ td, th {
 }
 .send{
   margin-left: 83%;
-  width:15%;
-}
-.img-glowna{
-
+  /*width:15%;*/
 }
 
 .oferta{
@@ -1386,7 +1383,7 @@ button, input, select, textarea {
 }
 
 a {
-    /*color: #337ab7;*/
+    color: #337ab7;
     text-decoration: none
 }
 
@@ -1843,7 +1840,7 @@ pre code {
     overflow-y: scroll
 }
 
-.container {
+.container, #ajax_change {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -1854,17 +1851,26 @@ pre code {
     .container {
         width: 750px
     }
+    #ajax_change{
+      width: 800px
+    }
 }
 
 @media (min-width:992px) {
     .container {
         width: 970px
     }
+    #ajax_change{
+      width: 950px
+    }
 }
 
 @media (min-width:1200px) {
     .container {
         width: 1170px
+    }
+    #ajax_change{
+      width: 1000px
     }
 }
 
@@ -4820,7 +4826,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
     color: #c11d1e;
-    background-color: transparent
+    background-color: #ededed;
+    /*background-color: transparent*/
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
